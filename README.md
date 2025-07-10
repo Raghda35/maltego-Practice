@@ -1,20 +1,12 @@
-# theHarvester - OSINT Tool تطبيقاتي العملية لأداة
+# maltego - OSINT Tool تطبيقاتي العملية لأداة
 
 This section provides a complete walkthrough on how to use theHarvester — a powerful OSINT (Open Source Intelligence) tool used for gathering publicly available information about a target.
 
 ---
 
-## 🔍 What is theHarvester?
+## 🔍 What is maltego?
 
-theHarvester is an open-source intelligence tool designed to help gather emails, subdomains, IPs, and usernames from different public sources like search engines and websites such as:
-
-- Google
-- Bing
-- Yahoo
-- Shodan
-- LinkedIn
-- Baidu
-- And more...
+Maltego is a powerful OSINT and link analysis tool used for gathering and visualizing data about people, companies, domains, and networks. It helps security professionals, penetration testers, and digital investigators to map relationships using publicly available information.
 
 ---
 
