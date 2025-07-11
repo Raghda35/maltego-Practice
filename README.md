@@ -15,7 +15,7 @@ Maltego is a powerful OSINT and link analysis tool used for gathering and visual
 sudo apt update
 sudo apt install maltego
 ```
-<img src="https://github.com/Raghda35/OSINT-Practice/blob/6d999f2ab67f2d30768cbb11886fea913c977d9d/theHarvester_installation.png">
+<img src="https://github.com/Raghda35/maltego-Practice/images/maltego_install.png">
 
 ---
 
