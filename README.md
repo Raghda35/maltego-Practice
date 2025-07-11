@@ -30,6 +30,10 @@ maltego
 Alternatively, you can find it in the Applications > Information Gathering menu in Kali's GUI.
 ![Alt Text](images/GUI.png)
 
+<img src="https://github.com/Raghda35/maltego-Practice/blob/186bddefb3e1b75520c05711110a69825e86d09a/images/GUI.png" width=50%/>
+
+
+
 ---
 
 3. Basic Command Syntax
