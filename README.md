@@ -20,12 +20,15 @@ sudo apt install maltego
 
 ---
 
-2. Running the Tool: This will show the help menu with all available options.
+### 3. Launch Maltego
+Open the terminal and run:
+```
+maltego
+```
 
-```
-theHarvester
-```
-<img src="https://github.com/Raghda35/OSINT-Practice/blob/6d999f2ab67f2d30768cbb11886fea913c977d9d/Running.png">
+
+Alternatively, you can find it in the Applications > Information Gathering menu in Kali's GUI.
+![Alt Text](images/GUI.png)
 
 ---
 
