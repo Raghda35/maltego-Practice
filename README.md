@@ -10,10 +10,10 @@ Maltego is a powerful OSINT and link analysis tool used for gathering and visual
 
 ---
 
-1. Installing theHarvester (if not already installed) In Kali Linux, the tool is usually pre-installed. But if it’s not, run:
+1. Install via terminal:
 ```
 sudo apt update
-sudo apt install theharvester
+sudo apt install maltego
 ```
 <img src="https://github.com/Raghda35/OSINT-Practice/blob/6d999f2ab67f2d30768cbb11886fea913c977d9d/theHarvester_installation.png">
 
