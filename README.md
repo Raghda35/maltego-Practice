@@ -16,7 +16,7 @@ sudo apt update
 sudo apt install maltego
 ```
 
-![Alt Text](images\maltego_install.png)
+![Alt Text](images/maltego_install.png)
 
 ---
 
