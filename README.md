@@ -83,8 +83,7 @@ To IP addresses
 
 To WHOIS information
 
-<img src="https://github.com/Raghda35/OSINT-Practice/blob/832c1ea7cf277efdd1cac41147eab4170ed609f2/View_result.png">
-
+![Alt Text](images/graph.png)
 
 ---
 
