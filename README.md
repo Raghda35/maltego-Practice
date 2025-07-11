@@ -20,15 +20,14 @@ sudo apt install maltego
 
 ---
 
-### 3. Launch Maltego
+### 2. Launch Maltego
 Open the terminal and run:
 ```
 maltego
 ```
 
 
-Alternatively, you can find it in the Applications > Information Gathering menu in Kali's GUI.
-![Alt Text](images/GUI.png)
+Alternatively, you can find it in the Applications > reconnaissance menu in Kali's GUI.
 
 <img src="https://github.com/Raghda35/maltego-Practice/blob/186bddefb3e1b75520c05711110a69825e86d09a/images/GUI.png" width=50%/>
 
