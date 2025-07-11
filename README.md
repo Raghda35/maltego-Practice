@@ -10,7 +10,7 @@ Maltego is a powerful OSINT and link analysis tool used for gathering and visual
 
 ---
 
-###1. Install via terminal:
+### 1. Install via terminal:
 ```
 sudo apt update
 sudo apt install maltego
