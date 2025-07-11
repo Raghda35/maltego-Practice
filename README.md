@@ -35,70 +35,107 @@ Alternatively, you can find it in the Applications > reconnaissance menu in Kali
 
 ---
 
-3. Basic Command Syntax
-```
-theHarvester -d [domain] -b [data source]
-```
--d: The target domain.
+### 3. Create a Free Account
+   
+When you first launch Maltego, you’ll be asked to create a Paterva account.
 
--b: The data source (e.g., google, bing, yahoo, baidu, shodan, linkedin).
+This is required to access the Community Edition (CE).
 
-Example
+After registration, log in inside the Maltego application.
 
-```
-theHarvester -d hackthissite.org -b google
-```
-(Requires API Key)
 
-Instead we can use Yahoo which doesn't require API Key
-
-<img src="https://github.com/Raghda35/OSINT-Practice/blob/b852c6e5ef22ed1d7879b8a94d29010c4967674f/Basic_command.png">
 
 
 ---
 
-4. Detailed Command
-```
-theHarvester -d example.com -b yahoo -l 100 -f result-example
-```
-| Option | Description                                                      |
-| ------ | ---------------------------------------------------------------- |
-| `-d`   | Target domain name.                                              |
-| `-b`   | Data source to use (e.g., google, bing, shodan, linkedin, etc.). |
-| `-l`   | Limit the number of results to fetch.                            |
-| `-f`   | Save the output to an HTML or XML file.                          |
-| `-v`   | Verbose output (detailed display).                               |
-| `-h`   | Show the help message.                                           |
+### 4. Create a New Graph
 
-<img src="https://github.com/Raghda35/OSINT-Practice/blob/165483b49c9304c07532a1e74a8a9376c2215201/Detailed_command.png">
+After login:
+
+Click "New Graph".
+
+You’ll be presented with a blank workspace.
+
+Choose an entity to start with (like a domain name, email address, person, etc.).
+
+
+
+
 
 ---
+### 5. Add an Entity
+   
+Example: Investigating a Domain
 
-5. View saved information in result-example.XML or JSON 
+From the left sidebar, drag the "Domain" entity into the graph.
 
+Double-click it to edit the domain name (e.g., example.com).
 
+Right-click on the domain entity.
 
+Select "Run All Transforms" or individual transforms like:
+
+To DNS name
+
+To MX records
+
+To IP addresses
+
+To WHOIS information
 
 <img src="https://github.com/Raghda35/OSINT-Practice/blob/832c1ea7cf277efdd1cac41147eab4170ed609f2/View_result.png">
 
 
 ---
 
-6. Result Analysis
-After scanning, you will typically get:
+### 6. What Are Transforms?
 
-Email addresses
+Transforms are built-in scripts that gather information from various sources and visualize relationships (like email addresses, DNS data, subdomains, etc.).
 
-Subdomains
+There are both free and commercial transforms.
 
-Hostnames
+---
 
-Possibly IPs
+### 7. Visualize Relationships
+As you run transforms, Maltego will:
 
-Shodan/LinkedIn data (if API is configured)
+Populate the graph with new entities (emails, hosts, IPs, etc.).
+
+Automatically draw links showing how entities are related.
+
+Allow you to zoom in, label, and color-code nodes for clarity.
+
+---
+
+### 8. Save and Export
+You can save your investigation as:
+
+.mtgl – Maltego project file.
+
+Export reports or screenshots of your graph for documentation.
 
 
+---
 
 
+### Example Use Cases of Maltego
 
+Mapping subdomains of a target domain.
 
+Finding email addresses linked to a website.
+
+Discovering relationships between social media accounts.
+
+Investigating breach data and leaked credentials (with plugins).
+
+Tracking infrastructure relationships (IPs, ASNs, DNS records).
+
+---
+
+### Bonus Tips
+
+Use Maltego Community Edition (CE) for free.
+
+You can install extra transforms (e.g., Shodan, HaveIBeenPwned, VirusTotal) via Transform Hub.
+
+For deeper analysis, use with other OSINT tools like theHarvester, SpiderFoot, etc.
