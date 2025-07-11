@@ -16,7 +16,7 @@ sudo apt update
 sudo apt install maltego
 ```
 <img src="https://github.com/Raghda35/maltego-Practice/images/maltego_install.png">
-![Alt Text](images/maltego_install.png)
+![Alt Text](images\maltego_install.png)
 ---
 
 2. Running the Tool: This will show the help menu with all available options.
